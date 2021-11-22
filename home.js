@@ -51,9 +51,16 @@
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
 //CODE HERE
-// const canWeDeliver = zipCode => {
-//     if(for i = 0; i >  )
+// const canWeDeliver = zip => {
+//     if(deliveryAreaZipCodes.includes(zip)) {
+//         return 'Youre in our delivery zone!'
+//     } else {
+//         return 'sorry we cant deliver to that address'
+//     }
 // }
+
+//     console.log(canWeDeliver(85204))
+
     
 
 
@@ -76,6 +83,17 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 */
 
 // CODE HERE
+// const canWeDeliverTwo = zip => {
+//     for(let i = 0; i < deliveryAreaZipCodes.length; i++) {
+//         if(zip === deliveryAreaZipCodes[i]) { 
+//             return 'youre in our delivery zone'
+//         } else {
+//             return 'we cant deliver to that area!'
+//         }
+//     }
+// }
+
+// console.log(canWeDeliverTwo[85204])
 
 
 //////////////////PROBLEM 3////////////////////
@@ -98,7 +116,7 @@ const deals = [
     }, 
     {
         title: 'Free Kids Meal with 2 Regular Entrees', 
-        desc: '   This deal lasts until the end of March! '
+        desc: 'This deal lasts until the end of March!'
     }
 ]
 
@@ -112,8 +130,8 @@ const deals = [
 */
 
 //CODE HERE
-// const title = title.replace()  = '10% off!'
-// console.log(title)
+// deals[0].title = deals[0].title.replace('15%', '10')
+// console.log(deals)
 
 
 /*
@@ -129,4 +147,6 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+//CODE HERE 
+// deals[1].desc = deals[1].desc.replace('March', 'April').trim()
+// console.log(deals)
